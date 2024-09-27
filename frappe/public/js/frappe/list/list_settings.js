@@ -111,7 +111,7 @@ export default class ListSettings {
 			fields += `
 				<div class="control-input flex align-center form-control fields_order ${is_sortable}"
 					style="display: block; margin-bottom: 5px;" data-fieldname="${me.fields[idx].fieldname}"
-					data-label="${me.fields[idx].label}" data-type="${me.fields[idx].type}">
+					data-label="${__(me.fields[idx].label)}" data-type="${me.fields[idx].type}">
 
 					<div class="row">
 						<div class="col-1">
