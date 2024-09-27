@@ -1,6 +1,6 @@
 <template>
 	<div v-if="is_shown" class="flex justify-between build-success-message align-center">
-		Compiled successfully
+		{{ __("Compiled Successfully") }}
 		<a v-if="!live_reload" class="ml-4 text-white underline" href="/" @click.prevent="reload">
 			Refresh
 		</a>
