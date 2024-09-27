@@ -303,7 +303,7 @@ frappe.PermissionEngine = class PermissionEngine {
 	}
 
 	setup_if_owner(d, role_cell) {
-		this.add_check(role_cell, d, "if_owner", "Only if Creator")
+		this.add_check(role_cell, d, "if_owner", __("Only if Creator"))
 			.removeClass("col-md-4")
 			.css({ "margin-top": "15px" });
 	}
