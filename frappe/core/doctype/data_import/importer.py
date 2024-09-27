@@ -1006,7 +1006,7 @@ class Column:
 				self.warnings.append(
 					{
 						"col": self.column_number,
-						"message": message.format(self.df.options, missing_values),
+						"message": message.format(_(self.df.options), missing_values),
 						"type": "warning",
 					}
 				)
